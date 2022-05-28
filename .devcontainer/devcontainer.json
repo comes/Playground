@@ -8,14 +8,23 @@
 	"workspaceFolder": "/var/www/html",
 	"settings": {},
 	"extensions": [
-		// "mikestead.dotenv",
-		// "amiralizadeh9480.laravel-extra-intellisense",
-		// "ryannaddy.laravel-artisan",
-		// "onecentlin.laravel5-snippets",
-		// "onecentlni.laravel-blade"
+		"mikestead.dotenv",
+		"amiralizadeh9480.laravel-extra-intellisense",
+		"calebporzio.better-phpunit",
+		"ms-azuretools.vscode-docker",
+		"github.copilot",
+		"github.vscode-pull-request-github",
+		"codingyu.laravel-goto-view",
+		"stef-k.laravel-goto-controller",
+		"bmewburn.vscode-intelephense-client",
+		"ikappas.phpcs",
+		"bradlc.vscode-tailwindcss",
+		"cierra.livewire-vscode"
 	],
 	"remoteUser": "sail",
-	// "forwardPorts": [],
+	"forwardPorts": [
+		80
+	]
 	// "runServices": [],
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 	// "shutdownAction": "none",
